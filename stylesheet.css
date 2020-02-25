@@ -26,6 +26,9 @@ li {
 .centered{
   text-align: center;
 }
+.heading{
+  padding:50px 0;
+}
 
 header{
   height:60px;
@@ -61,14 +64,10 @@ header{
   padding-bottom:70px;
   background-color:white
 }
-.heading{
-  padding:50px 0;
-}
 .about-wrapper h2{
   color:rgba(255,190,0,0.7);
   font-size:40px;
 }
-
 .self-image{
   flex:auto;
   width:30%;
@@ -95,10 +94,23 @@ header{
 .about-image{
   flex:auto;
   width:50%;
+  position:relative;
 }
 .about-image img{
-  width:250px;
+  width:270px;
 }
+.image-text{
+  position:absolute;
+  top:73%;
+  left:5%;
+  color:white;
+  text-align: left;
+  font-size:20px;
+  -webkit-text-stroke: 0.4px #FF8C00;
+  text-stroke:0.4px #FF8C00;
+  line-height:20px;
+}
+
 
 
 .skill-wrapper{
