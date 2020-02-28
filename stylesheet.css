@@ -1,0 +1,116 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+.container{
+  width: 1170px;
+  padding:0 30px;
+  margin:0 auto;
+}
+
+.left-body{
+  float:left;
+  width:15%;
+  height:100%;
+  background-color:white;
+}
+.left-list{
+  padding:20px 0;
+}
+.left-list li{
+  padding:20px 0;
+  color:rgba(0,0,0,0.6);
+  text-align: center;
+  font-size: 20px;
+}
+.right-body{
+  float:right;
+  width:85%;
+  background-color:white;
+}
+.top-wrapper{
+  height:700px;
+  background-image:url(fabian-grohs-dMUt0X3f59Q-unsplash.jpg);
+  background-size:cover;
+}
+.top-text{
+  text-align: center;
+  padding-top:250px;
+}
+.top-text h1{
+  color:white;
+  font-size:60px;
+  font
+}
+.biography-wrapper{
+  padding:50px 0 40px 0;
+}
+.text{
+  border-bottom:1px solid rgba(0,0,0,0.6);
+}
+.self-image{
+  padding:20px 0;
+}
+.profile{
+  padding-bottom:60px;
+}
+.profile p{
+  display:block;
+  margin-top:15px;
+  margin-left:30px;
+}
+.skills-wrapper{
+  padding-bottom:60px;
+}
+.skill{
+  padding:20px 0 80px 0;
+}
+.skill-left{
+  float:left;
+  padding-right:100px;
+}
+.fab{
+  font-size: 60px;
+}
+.skill-right{
+  display:inline-block
+}
+.star-rating {
+  position: relative;
+  width: 5em;
+  height: 1em;
+  font-size: 25px;
+  display:block;
+  padding-bottom:20px;
+}
+.star-rating-front {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  color: #ffcc33;
+}
+.star-rating-back {
+  color: #ccc;
+}
+.contact-wrapper{
+  padding-bottom:60px;
+}
+.icon{
+  padding-top:20px;
+}
+.fa-twitter{
+  font-size: 30px;
+  color:black;
+}
