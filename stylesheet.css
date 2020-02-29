@@ -7,7 +7,8 @@ form, input, div {
 }
 
 body {
-  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+  font-family: 'PT Sans',sans-serif;
+  background-color:white;
 }
 
 li {
@@ -18,12 +19,19 @@ li {
   padding:0 30px;
   margin:0 auto;
 }
+a {
+text-decoration: none;
+transition:all 0.5s;
+}
 
 .left-body{
   float:left;
   width:15%;
   height:100%;
   background-color:white;
+  position:fixed;
+  z-index:10;
+  top:0;
 }
 .left-list{
   padding:20px 0;
@@ -33,11 +41,16 @@ li {
   color:rgba(0,0,0,0.6);
   text-align: center;
   font-size: 20px;
+  transition:all 0.2s;
+}
+.left-list li:hover{
+  color:rgba(50,204,255,0.8);
 }
 .right-body{
   float:right;
   width:85%;
   background-color:white;
+  color:rgba(0,0,0,0.75);
 }
 .top-wrapper{
   height:700px;
@@ -50,8 +63,8 @@ li {
 }
 .top-text h1{
   color:white;
-  font-size:60px;
-  font
+  font-size:70px;
+  text-shadow: 3px 5px 3px #808080;
 }
 .biography-wrapper{
   padding:50px 0 40px 0;
@@ -61,6 +74,9 @@ li {
 }
 .self-image{
   padding:20px 0;
+}
+.self-image img{
+  border-radius: 40px;
 }
 .profile{
   padding-bottom:60px;
@@ -79,6 +95,7 @@ li {
 .skill-left{
   float:left;
   padding-right:100px;
+  width:70px;
 }
 .fab{
   font-size: 60px;
@@ -107,10 +124,21 @@ li {
 .contact-wrapper{
   padding-bottom:60px;
 }
+.contact-wrapper p{
+  padding-top:20px;
+}
 .icon{
   padding-top:20px;
 }
 .fa-twitter{
   font-size: 30px;
-  color:black;
+  color: #c0c0c0;
+}
+.copy-right{
+  border-top:1px solid rgba(0,0,0,0.6);
+  height:60px;
+}
+.copy-right p{
+  line-height:60px;
+  text-align:right;
 }
