@@ -1,6 +1,6 @@
 @media all and (max-width:749px){
 p{
-  font-size:8px;
+  font-size:10px;
 }
 h2{
   font-size:120%;
@@ -55,6 +55,9 @@ h3{
 }
 .skill-right{
   display: inline;
+}
+.fab{
+  font-size:40px
 }
 .star-rating {
   text-align: center;
