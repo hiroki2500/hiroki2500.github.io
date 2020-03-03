@@ -1,12 +1,28 @@
 @media all and (max-width:749px){
 p{
-  font-size:10px;
+  font-size:8px;
+}
+h2{
+  font-size:120%;
+}
+h3{
+  font-size:100%;
 }
 .left-body{
   display:none;
 }
 .right-body{
   width:100%;
+}
+.top-wrapper{
+  height:300px;
+}
+.top-text{
+  padding-top:120px;
+}
+.top-text h1{
+  font-size:40px;
+  text-shadow: 2px 4px 2px #808080;
 }
 .text{
   text-align: center;
@@ -16,6 +32,10 @@ p{
 }
 .self-image{
   text-align: center;
+}
+.self-image img{
+  height:40%;
+  width:40%;
 }
 .profile h3{
   text-align: center;
