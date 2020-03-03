@@ -1,0 +1,29 @@
+@media all and (max-width: 670px){
+.left-body{
+  display:none;
+}
+.right-body{
+  width:100%;
+}
+.text{
+  text-align: center;
+}
+.text h2{
+  text-align: center;
+}
+.self-image{
+  text-align: center;
+}
+.profile h3{
+  text-align: center;
+}
+.profile p{
+  margin:0 30px;
+}
+.skill-left{
+  padding:0 50px 0 80px;
+}
+.contact-wrapper{
+  text-align: center;  
+}
+}
