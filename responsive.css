@@ -1,4 +1,7 @@
-@media all and (max-width: 749px){
+@media all and (max-width:749px){
+p{
+  font-size:12px;
+}
 .left-body{
   display:none;
 }
