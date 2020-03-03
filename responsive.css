@@ -43,8 +43,25 @@ h3{
 .profile p{
   margin:0 30px;
 }
+.skill{
+  text-align: center;
+  padding:20px 0 0 0;
+}
 .skill-left{
-  padding:0 50px 0 80px;
+  padding:0;
+  float:none;
+  text-align: center;
+  width:100%;
+}
+.skill-right{
+  display: inline;
+}
+.star-rating {
+  text-align: center;
+  display: inline-block;
+}
+.skill p{
+  padding-bottom:30px;
 }
 .contact-wrapper{
   text-align: center;
