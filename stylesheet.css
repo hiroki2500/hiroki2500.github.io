@@ -15,8 +15,8 @@ li {
   list-style: none;
 }
 .container{
-  width: 1170px;
-  padding:0 30px;
+  max-width:1170px;
+  width: 100%;
   margin:0 auto;
 }
 a {
