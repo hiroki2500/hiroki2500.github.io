@@ -7,15 +7,16 @@
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="responsive.css">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   </head>
   <body>
     <div class="left-body">
       <div class="left-list">
         <ul>
-          <a href="#link1"><li>Top</li></a>
-          <a href="#link2"><li>Biography</li></a>
-          <a href="#link3"><li>My Skill Set</li></a>
-          <a href="#link4"><li>contact</li></a>
+          <a id="link1"><li>Top</li></a>
+          <a href="#biography"><li>Biography</li></a>
+          <a href="#skills"><li>My Skill Set</li></a>
+          <a href="#contact"><li>contact</li></a>
         </ul>
       </div>
     </div>
@@ -23,28 +24,26 @@
     <div class="right-body">
 <!-- top -->
       <div class="top-wrapper">
-        <a name="link1"></a>
-         <div class="top-text">
-           <h1>MARU's portfolio</h1>
-         </div>
+       <div class="top-text fadein">
+         <h1>Maru's portfolio</h1>
+       </div>
       </div>
 
 <!-- biograohy -->
       <div class="biography-wrapper">
         <div class="container">
-          <div class="text">
-            <a name="link2"></a>
+          <div class="text" id="biography">
             <h2>Biography</h2>
           </div>
           <div class="self-image">
             <img src="self-image.png">
           </div>
           <div class="profile">
-            <h3>MARU</h3>
-            <p>日系メーカーで働く企業研究者です。
-              がん治療薬の研究を進めながら、イントラプレナーとして活動しています。
-              <br>研究成果発表や社内新規事業立ち上げの経験から、わかりやすい資料づくりやプレゼンを得意としています。
-              <br>キャリアの幅を広げるため、プログラミングを勉強中。
+            <h3>Maru</h3>
+            <p>メーカーで働く企業研究者です。
+              <br>がん治療薬の研究を進めながら、イントラプレナーとして活動しています。
+              <br>研究成果発表や社内新規事業立ち上げの経験から、相手に意図が伝わる資料づくりやプレゼンを得意としています。
+              <br>キャリアの幅を広げるため、プログラミングを勉強中です。
             </p>
           </div>
           <div class="profile">
@@ -54,13 +53,14 @@
             <br>2014.04　大学院入学(理学研究科) first authorの論文(inpact factor:12)を執筆
             <br>2016.03　大学院卒業 理学修士
             <br>2016.04　入社 有機化学と細胞生物学をベースに企業での研究をスタート
-            <br>2019.01　分子細胞免疫学をベースにがん治療薬の研究をスタート
+            <br>2019.01　免疫学をベースにがん治療薬の研究をスタート
             <br>2020.01　プログラミングの勉強をスタート
           </div>
           <div class="profile">
             <h3>興味/関心</h3>
             <p>車：マツダのデザインが気に入っています。
-            <br>音楽：20年間ヤマハに通っていました。</p>
+            <br>音楽：20年間ヤマハに通っていました。
+          　<br>写真：ソニーの一眼レフを愛用しています。</p>
           </div>
         </div>
       </div>
@@ -68,8 +68,7 @@
 <!-- skills -->
       <div class="skills-wrapper">
         <div class="container">
-          <div class="text">
-            <a name="link3"></a>
+          <div class="text" id="skills">
             <h2>My Skill Set</h2>
           </div>
           <!-- skill 1 -->
@@ -79,41 +78,33 @@
               <i class="fab fa-html5"></i>
             </div>
             <div class="skill-right">
-              <div class="star-rating">
-                <div class="star-rating-front" style="width: 80%">★★★★★</div>
-                <div class="star-rating-back">★★★★★</div>
-              </div>
-              <p>HTMLをきっかけにプログラミングの世界に入る。
-                <br>テンプレートのカスタマイズや、簡単なLP作成が可能。</p>
+              <p>HTMLをきっかけにプログラミングの学習を始めました。
+                <br>テンプレートのカスタマイズや、簡単なLP作成が可能です。
+                <br>
+              </p>
             </div>
           </div>
           <!-- skill 2 -->
           <div class="skill">
             <div class="skill-left">
               <h3>CSS</h3>
-              <i class="fab fa-css3"></i>
+              <i class="fab fa-css3-alt"></i>
             </div>
             <div class="skill-right">
-              <div class="star-rating">
-                <div class="star-rating-front" style="width: 80%">★★★★★</div>
-                <div class="star-rating-back">★★★★★</div>
-              </div>
-              <p>CSSをきっかけにプログラミングの世界に入る。
-                <br>テンプレートのカスタマイズや、簡単なLP作成が可能。</p>
+              <p>CSSをきっかけにプログラミングの学習を始めました。
+                <br>テンプレートのカスタマイズや、簡単なLP作成が可能です。</p>
             </div>
           </div>
           <!-- skill 3 -->
           <div class="skill">
             <div class="skill-left">
-              <h3>Javascript</h3>
+              <h3>JavaScript</h3>
               <i class="fab fa-js"></i>
             </div>
             <div class="skill-right">
-              <div class="star-rating">
-                <div class="star-rating-front" style="width: 60%">★★★★★</div>
-                <div class="star-rating-back">★★★★★</div>
-              </div>
-              <p>勉強中。</p>
+              <p>Webページの視覚的効果を上げるために学習しました。
+              <br>既存Webページにアニメーションや効果をつけることが可能です。
+              <br>主にjQueryを使用しています。</p>
             </div>
           </div>
         </div>
@@ -121,23 +112,23 @@
 <!-- contact -->
       <div class="contact-wrapper">
         <div class="container">
-          <div class="text">
-            <a name="link4"></a>
+          <div class="text" id="contact">
             <h2>Contact</h2>
           </div>
           <p>TwitterのDMからお問い合わせください。</p>
           <div class="icon">
-            <a href="https://twitter.com/Red_FoX2500" class="fab fa-twitter"></a>
+            <a href="https://twitter.com/Red_FoX2500" class="fab fa-twitter-square"></a>
           </div>
         </div>
       </div>
       <footer>
         <div class="container">
           <div class="copy-right">
-            <p>©️ 2020 MARU's portfolio</p>
+            <p>Copyright © Maru. All Rights Reserved.</p>
           </div>
         </div>
       </footer>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
