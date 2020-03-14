@@ -1,6 +1,6 @@
 @media all and (max-width:749px){
 p{
-  font-size:12px;
+  font-size:10px;
 }
 h2{
   font-size:120%;
@@ -15,10 +15,10 @@ h3{
   width:100%;
 }
 .top-wrapper{
-  height:300px;
+  height:200px;
 }
 .top-text{
-  padding-top:120px;
+  padding-top:70px;
 }
 .top-text h1{
   font-size:40px;
@@ -32,6 +32,7 @@ h3{
 }
 .self-image{
   text-align: center;
+  float:none;
 }
 .self-image img{
   height:40%;
@@ -39,9 +40,6 @@ h3{
 }
 .profile h3{
   text-align: center;
-}
-.profile p{
-  margin:0 30px;
 }
 .skill{
   text-align: center;
