@@ -26,7 +26,7 @@ transition:all 0.5s;
 
 .left-body{
   float:left;
-  width:15%;
+  width:10%;
   height:100%;
   background-color:white;
   position:fixed;
@@ -48,18 +48,18 @@ transition:all 0.5s;
 }
 .right-body{
   float:right;
-  width:85%;
+  width:90%;
   background-color:white;
   color:rgba(0,0,0,0.75);
 }
 .top-wrapper{
-  height:700px;
+  height:400px;
   background-image:url(fabian-grohs-dMUt0X3f59Q-unsplash.jpg);
   background-size:cover;
 }
 .top-text{
   text-align: center;
-  padding-top:250px;
+  padding-top:150px;
 }
 .fadein {
   opacity: 0;
@@ -82,13 +82,14 @@ transition:all 0.5s;
   border-bottom:1px solid rgba(0,0,0,0.6);
 }
 .self-image{
-  padding:20px 0;
+  padding:30px 0;
+  float:right;
 }
 .self-image img{
   border-radius: 40px;
 }
 .profile{
-  padding-bottom:60px;
+  padding:30px 0;
 }
 .profile p{
   display:block;
@@ -99,7 +100,7 @@ transition:all 0.5s;
   padding-bottom:60px;
 }
 .skill{
-  padding:20px 0 80px 0;
+  padding:30px 0;
 }
 .skill-left{
   float:left;
@@ -112,24 +113,6 @@ transition:all 0.5s;
 .skill-right{
   display:inline-block;
   padding-top:25px;
-}
-.star-rating {
-  position: relative;
-  width: 5em;
-  height: 1em;
-  font-size: 25px;
-  display:block;
-  padding-bottom:20px;
-}
-.star-rating-front {
-  position: absolute;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-  color: #ffcc33;
-}
-.star-rating-back {
-  color: #ccc;
 }
 .contact-wrapper{
   padding-bottom:60px;
